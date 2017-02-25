@@ -10,14 +10,19 @@ const namespace = (obj, prefix) =>
     return acc;
   }, {});
 
-export const uniteActions = (actions) =>
+const uniteActions = (actions) =>
   Object.keys(actions).reduce((acc, key) => {
     var nsa = namespace(actions[key], key)
     return Object.assign({}, acc, nsa);
   }, {})
 
-export const uniteRoutes = (views) =>
+const uniteRoutes = (views) =>
   Object.keys(views).reduce((acc, key) => {
     acc['/'+decapitalize(key)] = views[key]
     return acc;
   }, {})
+
+module.exports = {
+  uniteActions,
+  uniteRoutes,
+}
