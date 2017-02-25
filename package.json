@@ -1,12 +1,20 @@
 {
   "name": "hyperapp-unite",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A utility function for merging reducers, effects and routes with safe namespacing",
+  "main": "./index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Luke Jackson",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukejacksonn/hyperapp-unite.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lukejacksonn/hyperapp-unite/issues"
+  },
+  "homepage": "https://github.com/lukejacksonn/hyperapp-unite#readme"
 }
