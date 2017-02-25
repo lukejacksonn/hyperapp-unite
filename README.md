@@ -1,6 +1,12 @@
 # hyperapp-unite
 > A utility function for merging reducers, effects and routes with safe namespacing
 
+## Install
+
+```
+npm i -S hyperapp-unite
+```
+
 ## Usage
 
 ```
