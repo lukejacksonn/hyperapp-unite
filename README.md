@@ -1,7 +1,8 @@
-# hyperapp-unite
-> A utility function for merging reducers, effects and routes with safe namespacing
 
 NOTE: Although this library will still work as described. It is nearly redundant now due to the fact that hyperapp actions can now be nested. So instead of calling `actions.incrementComponentA()` it is possible to nest actions like `actions.componentA.increment()`. See https://github.com/hyperapp/hyperapp/issues/73
+
+# hyperapp-unite
+> A utility function for merging reducers, effects and routes with safe namespacing
 
 ## Install
 
